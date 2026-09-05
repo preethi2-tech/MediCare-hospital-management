@@ -1,0 +1,2 @@
+package ui;
+public class DoctorFrame extends ModuleFrame { public DoctorFrame(){super("Doctors", new String[]{"Doctor","Specialization","Availability"}, new String[][]{{"Dr. John Smith","Cardiology","Available"}});} }

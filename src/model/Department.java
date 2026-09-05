@@ -1,0 +1,2 @@
+package model;
+public class Department { private int departmentId; private String departmentName, description; public Department(){} public Department(String n,String d){departmentName=n;description=d;} public int getDepartmentId(){return departmentId;} public void setDepartmentId(int v){departmentId=v;} public String getDepartmentName(){return departmentName;} public void setDepartmentName(String v){departmentName=v;} public String getDescription(){return description;} public void setDescription(String v){description=v;} public String toString(){return departmentName;} }

@@ -1,0 +1,2 @@
+package ui;
+public class PrescriptionFrame extends ModuleFrame { public PrescriptionFrame(){super("Prescriptions", new String[]{"Patient","Medicine","Instructions"}, new String[][]{{"Demo patient","Vitamin D","Once daily"}});} }

@@ -1,0 +1,3 @@
+package model;
+import java.time.LocalDate;
+public class Payment { private int paymentId,billId; private double amountPaid; private LocalDate paymentDate; private String paymentMode; public int getPaymentId(){return paymentId;} public void setPaymentId(int v){paymentId=v;} public int getBillId(){return billId;} public void setBillId(int v){billId=v;} public double getAmountPaid(){return amountPaid;} public void setAmountPaid(double v){amountPaid=v;} public LocalDate getPaymentDate(){return paymentDate;} public void setPaymentDate(LocalDate v){paymentDate=v;} public String getPaymentMode(){return paymentMode;} public void setPaymentMode(String v){paymentMode=v;} }

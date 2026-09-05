@@ -1,0 +1,2 @@
+package ui;
+public class MedicalRecordFrame extends ModuleFrame { public MedicalRecordFrame(){super("Medical records", new String[]{"Patient","Diagnosis","Date"}, new String[][]{{"Demo patient","General checkup","Today"}});} }

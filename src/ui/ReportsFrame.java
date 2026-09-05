@@ -1,0 +1,2 @@
+package ui;
+public class ReportsFrame extends ModuleFrame { public ReportsFrame(){super("Reports", new String[]{"Report","Value"}, new String[][]{{"Today's appointments","1"},{"Pending bills","1"}});} }
